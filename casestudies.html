@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>case study</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: url(assets/imgs/bg4.jpg);
+    background-size: cover;
+    background-position: none;
+
+}
+
+
+
+
+main {
+    padding: 2em;
+    color: white;
+}
+h2{
+    color: gold;
+}
+
+
+
+/* case section styling */
+.case {
+    display: flex;
+    max-width: 800px;
+    margin: auto;
+    background: transparent;
+    border-radius: 8px;
+   
+}
+
+/* case image styling */
+.case-image {
+    flex: 1;
+    padding: 1em;
+}
+
+.case-image img {
+    max-width: 250px;
+    border-radius: 8px;
+}
+
+/* case details styling */
+.case-details {
+    flex: 2;
+    padding: 1em;
+    color: antiquewhite;
+}
+
+.case-details h2 {
+    margin-bottom: 0.5em;
+}
+
+.case-description {
+    margin-bottom: 1em;
+}
+
+
+
+@media (max-width: 768px) {
+    .case {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .case-image, .case-details {
+        padding: 0.5em;
+    }
+
+    .case-details {
+        text-align: center;
+    }
+}
+
+
+</style>
+<body>
+    
+    <main>
+        <h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CASE STUDIES</h1>
+        <section class="case">
+            <div class="case-image">
+                <img src="assets/imgs/cs1.jpg" alt="case Image">
+            </div>
+            <div class="case-details">
+                <h2>KIDNAPPING</h2>
+                <p class="case-description">Kidnapping is the act of taking someone away against their will, often using force or deception.
+                    Kidnapping can be motivated by ransom demands, personal vendettas, or human trafficking.
+                    Victims of kidnapping often experience physical and emotional trauma.
+                    </p>
+                <a href="kid.html"><button type="Login" class="btn-dark">Over View</button></a>
+            </div>
+        </section>
+        <section class="case">
+            <div class="case-image">
+                <img src="assets/imgs/cs2.jpg" alt="case Image">
+            </div>
+            <div class="case-details">
+                <h2>CRIME</h2>
+                <p class="case-description">Murder is the intentional and unlawful killing of another person, often driven by motives like greed, revenge, or passion.
+                    Crimes involving murder can include manslaughter, homicide, and infanticide.
+                    Murder has severe legal consequences, including life imprisonment or the death penalty.
+                                        
+                    </p>
+                <a href="crime.html"><button type="Login" class="btn-dark">Over View</button></a>
+            </div>
+        </section>
+        <section class="case">
+            <div class="case-image">
+                <img src="assets/imgs/cs3.jpg" alt="case Image">
+            </div>
+            <div class="case-details">
+                <h2>HUMAN TRAFFICKING</h2>
+                <p class="case-description">Human trafficking involves exploiting people for labor, sex, or organs, often using coercion or deception.
+                    Traffickers target vulnerable individuals, including children, migrants, and those in poverty.
+                    Human trafficking is a global issue, with millions of people trapped in modern-day slavery.
+                    
+                    </p>
+                <a href="humtra.html"><button type="Login" class="btn-dark">Over View</button></a>
+            </div>
+        </section>
+        <section class="case">
+            <div class="case-image">
+                <img src="assets/imgs/cs4.jpg" alt="case Image">
+            </div>
+            <div class="case-details">
+                <h2>THEFT</h2>
+                <p class="case-description">Theft involves taking someone else's property without permission, often with the intent to permanently deprive them of it.
+                    Types of theft include burglary, robbery, larceny, and shoplifting.
+                    Theft can have significant financial and emotional impacts on victims, and can lead to legal consequences like fines and imprisonment.
+</p>
+                <a href="theft.html"><button type="Login" class="btn-dark">Over View</button></a>
+            </div>
+        </section>
+       
+    </main>
+</body>
+</html>

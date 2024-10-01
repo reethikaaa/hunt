@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contents</title>
+    <link rel="stylesheet" href="styles.css">
+<style>
+body {
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url(assets/imgs/bg1.jpg);
+}
+
+header {
+    background: rgba(255, 255, 255, 0.11);
+    color: white;
+    padding: 0.1em 0;
+    text-align: center;
+    
+}
+
+
+main {
+    padding: 2em;
+}
+
+.case-listing {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    justify-content: center;
+    color: white;
+}
+
+.case {
+    background-color: transparent;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    padding: 1em;
+    text-align:left;
+}
+
+.case img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.case h3 {
+    font-size: 1.5em;
+    margin: 0.5em 0;
+    color: gold;
+}
+
+.case p {
+    margin: 0.5em 0;
+    
+}
+.btn-dark{
+    background: rgba(255, 255, 255, 0.11);;
+    color: white;
+    outline: 0;
+    border-radius: 25px;
+    padding: 0.7rem 1rem;
+    border: 0;
+    margin-top: 1rem;
+    cursor: pointer;
+    transition: all 0.6s ease;
+    font-size: 1rem;
+    font-family: inherit;
+}
+.btn-dark:hover{
+    background: var(--carribean-green);
+}
+/* Media Queries */
+@media screen and (min-width: 992px){
+    .product-items{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .product-col-r-bottom{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (min-width: 1200px){
+    .product-items{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .product{
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+    .products .text-light{
+        width: 50%;
+    }
+}
+
+
+</style>
+</head>
+<body>
+     <header>
+        <h1>H U N T<br><span>Justice Never Sleeps</span></h1>
+    </header>
+         <main>
+ <h1 style ="text-align:center">CONTENTS</h1>     
+
+    
+        <section class="case-listing">
+            <div class="case">
+                 <td> <img src="assets/imgs/case1.jpg" alt=""></td>
+                <h3>CRIME SCENE RESPONCE</h3>
+                <P><li>Crime Scene Response Guideline</li>
+                     <li>Crime Scene Procedures</li>
+                     <li>Crime Scene Response Articles</li></P>
+               <a href="con1.html"><button type="Login" class="btn-dark">View</button></a>
+            </div>
+            <div class="case">
+                 <td> <img src="assets/imgs/case2.jpg" alt=""></td>
+                <h3>EVIDENCE COLLECTION</h3>
+                <P><li>Evidence Collection Guldelines</li>
+                    <li> Collection and Preservation of Evidence </li>
+                    <li>Property Management</li></P>
+                <a href="con2.html"><button class="btn-dark">View</button></a>
+            </div>
+            <div class="case">
+                 <td> <img src="assets/imgs/case3.jpg" alt=""></td>
+                <h3>EMPLOYMENT OPPORTUNITIES</h3>
+                <P><li>Crime Scene investigators, Evidence Technicians</li>
+                     <li>Criminalists, Forensic Stientists  computer Forensics.</li>
+                     <li> Cybercrime Evidence Custodians, Property Officers </li>
+                      <li>Latent Print Examiners</li>
+                       <li>Death investigators, Autopsy Technicians</li> 
+                       <li>Supervisors, Managers</li></P>
+                <a href="con3.html"><button class="btn-dark">View</button></a>
+            </div>
+            <div class="case">
+                 <td> <img src="assets/imgs/case4.jpg" alt=""></td>
+                <h3>BECOME A CRIME SCENE INVESTIGATOR OR FORENSIC SCIENTIST</h3>
+                <p><li>four steps to become a Crime Scent investigator or Forensic Scientist</li></p>
+               <a href="con4.html"><button class="btn-dark">View</button></a>
+            </div>
+             <div class="case">
+                 <td> <img src="assets/imgs/case5.jpg" alt=""></td>
+                <h3>COLLEGE AND UNIVERSITY PROGRAMS</h3>
+                <P><li>Colleges and Universities with Crime Scene Investigation and Forensic Sience Degree Programs</li></P>
+                <a href="con5.html"><button class="btn-dark">View</button></a>
+            </div>
+            <div class="case">
+                 <td> <img src="assets/imgs/case6.jpg" alt=""></td>
+                <h3>ARTICLES</h3>
+                <P><li>General Crime Scene Investigation </li>
+                    <li>Fingerprints</li> 
+                    <li>footwear, Tire Track and Other impressions</li>
+                     <li>Computer Forensic</li>
+                      <li>DNA </li>
+                     <li> Human Remains </li>
+                      <li>Crime Scene and Evidence  Photography</li> 
+                      <li>Packaging Evidence</li></P>
+               <a href="con6.html"><button class="btn-dark">View</button></a>
+            </div>
+            <div class="case">
+                <td> <img src="assets/imgs/case7.jpg" alt=""></td>
+               <h3>CRIME SCENE AND EVIDENCE PHOTOGRAPHY</h3>
+               <P><li>Crime Scene Photography </li>
+               <li> Evidence Photography </li>
+                <li>Digital Photography </li>
+               <li> Photography Degrees and Training</li>
+                 <li>Photography Organizations</li></P>
+               <a href="con7.html"><button class="btn-dark">View</button></a>
+           </div>
+           <div class="case">
+                <td> <img src="assets/imgs/case8.jpg" alt=""></td>
+               <h3>VIDEO PRESENTATIONS</h3>
+               <p><li>Crime Scene-lnvestigation and Documentation</li>
+                 <li>Evidence Collection </li>
+                 <li>Latent Fingerprints</li>
+                 <li> Footwear, Tire Track and Other Impressions</li>
+                  <li> firearms and Tool Mark Evidence</li>
+                   <li> Crime Scene and Evidence Photography</li>
+                    <li> General topics</li></p>
+              <a href="con8.html"><button class="btn-dark">View</button></a>
+           </div>
+            <div class="case">
+                <td> <img src="assets/imgs/case9.jpg" alt=""></td>
+               <h3>RESOURCES AND LINKS</h3>
+               <p><li>Professional Training Opportunities </li>
+                <li> Meetings and Events</li>
+                <li> Crime Scene investigation and Forensic Organizations</li> 
+                <li> Crime Scene Investization Units </li>
+                 <li>Crime Scene Supply Vendors</li> 
+                 <li>Other Forensic Links</li></p>
+               <a href="con9.html"><button class="btn-dark">View</button></a>
+           </div>
+           <div class="case">
+                <td> <img src="assets/imgs/case10.jpg" alt=""></td>
+               <h3>BOOKSTORE</h3>
+               <p><li>Largest Selection of Forensic Books on thi Internet</li></p>
+              <a href="con10.html"><button class="btn-dark">View</button></a>
+           </div>
+</body>
+</html>
